@@ -42,7 +42,7 @@ const exp = [
 const Skills = () => {
   return (
     <>
-     <div className="flex flex-row gap-44 border-b mt-10 pb-10">
+     <div className="flex flex-row gap-44 mt-10 pb-10 border-b-2">
       <div>
         <h1 className="text-sm font-medium">Skills Required</h1>
          <div className=' flex flex-col gap-2 mt-4 '>

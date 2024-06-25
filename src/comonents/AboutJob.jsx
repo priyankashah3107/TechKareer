@@ -68,7 +68,7 @@ const paytypes = [
 const AboutJob = () => {
   return (
     <>
-     <div className="flex flex-col mt-4">
+     <div className="flex flex-col mt-4 border-b-2 pb-10">
 
       <div>
         <h3 >About the job</h3>

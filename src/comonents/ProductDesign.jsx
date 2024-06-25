@@ -7,7 +7,7 @@ import React from 'react'
 const ProductDesign = () => {
   return (
    <>
-    <div className='p-6 pl-0 border-b '>
+    <div className='p-6 pl-0 border-b-2  '>
 
       <div className='flex flex-row justify-start gap-4'>
         <h1 className="text-[#3D3D3D] text-[2.2rem] font-semibold">Senior Product Designer</h1>
