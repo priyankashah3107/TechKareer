@@ -41,7 +41,51 @@ const exp = [
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <>
+     <div className="flex flex-row gap-44 border-b mt-10 pb-10">
+      <div>
+        <h1 className="text-sm font-medium">Skills Required</h1>
+         <div className=' flex flex-col gap-2 mt-4 '>
+          {skills.map((val, idx) => (
+            <div key={idx} className='flex flex-row gap-2 border-2  rounded-md items-center w-auto pl-2 p-2 mt-2'>
+              <img src={val.icon} alt='' className="size-[18px]"/>
+              <p className="text-center text-[#344054] text-md font-medium ">{val.text}</p>
+            </div>
+          ))}
+         </div>
+      </div>
+
+
+      <div>
+      <h1 className="text-sm font-medium">Preferred Language</h1>
+
+      <div>{lang.map((val, idx) => (
+         <div key={idx} className=" text-[#3D3D3D] text-base font-semibold mt-2"> {val.text} </div>
+      ))}
+      </div>
+      </div>
+
+
+      <div>
+      <h1 className="text-sm font-medium">Type</h1>
+
+      <div>{type.map((val, idx) => (
+         <div key={idx} className=" text-[#3D3D3D] text-base font-semibold mt-2"> {val.text} </div>
+      ))}
+      </div>
+      </div>
+
+      <div>
+      <h1 className="text-sm font-medium">Years of Experience</h1>
+
+      <div>{exp.map((val, idx) => (
+         <div key={idx} className=" text-[#3D3D3D] text-base font-semibold mt-2"> {val.text} </div>
+      ))}
+      </div>
+      </div>
+
+     </div>
+    </>
   )
 }
 

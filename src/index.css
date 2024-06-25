@@ -98,7 +98,9 @@ h1, p{
 h2{
   color: #4F4F4F;
 }
-
+h3{
+  color:  #6E6D6D;
+}
 .bg{
   color: #B0B0B0;
   padding: 10px;
@@ -131,5 +133,6 @@ border-bottom: 4px solid transparent;
   cursor: pointer;
 
 }
+
 
 
