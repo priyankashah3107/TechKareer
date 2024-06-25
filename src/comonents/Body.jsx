@@ -9,7 +9,7 @@ const Body = () => {
   return (
     <>
      <div className="flex flex-row justify-between p-16 pt-0 pr-1 border-t border-neutral-200">
-       <div className='w-[75vw] bg-slate-400 p-10 h-screen border-r'>
+       <div className='w-[75vw] bg-slate-50 p-10 h-screen border-r'>
          <ProductDesign />
          <Skills />
          <AboutJob />
