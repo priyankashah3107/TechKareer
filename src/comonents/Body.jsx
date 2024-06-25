@@ -8,14 +8,14 @@ import Left from './Left'
 const Body = () => {
   return (
     <>
-     <div className="flex flex-row justify-between p-16 pt-10">
-       <div className='w-1/3 bg-slate-400 p-10 h-screen'>
+     <div className="flex flex-row justify-between p-16 pt-0 pr-1 border-t border-neutral-200">
+       <div className='w-[75vw] bg-slate-400 p-10 h-screen border-r'>
          <ProductDesign />
          <Skills />
          <AboutJob />
          <Footer />
        </div>
-       <div className='w-1/4 bg-red-300 h-screen'>
+       <div className=" w-[20vw] bg-[#FCFCFC] h-screen shadow border-l border-r border-t ">
         <Left />
        </div>
      </div>
