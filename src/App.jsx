@@ -8,6 +8,14 @@ import { PinIcon } from 'lucide-react'
 import { DatabaseIcon } from 'lucide-react'
 import { DollarSign } from 'lucide-react'
 import { BadgeDollarSign } from 'lucide-react'
+import { Pencil } from 'lucide-react'
+import { Trash } from 'lucide-react'
+import { UserCheck } from 'lucide-react'
+import { Briefcase } from 'lucide-react'
+import { WorkflowIcon } from 'lucide-react'
+import { Trash2 } from 'lucide-react'
+import { DeleteIcon } from 'lucide-react'
+import { Delete } from 'lucide-react'
 import { DollarSignIcon } from 'lucide-react'
 import { DatabaseZapIcon } from 'lucide-react'
 import { DatabaseBackupIcon } from 'lucide-react'
@@ -23,18 +31,21 @@ const App = () => {
   return (
     <>
      <div>
-      <Users />
+      {/* <Users />
       <User />
       <MessageSquare />
       <Eye />
       <HandCoins />
       <BellIcon />
       {/* <LocateIcon />
-      <Landmark /> */}
+      <Landmark /> 
       <PinIcon />
       <DatabaseIcon />
        <DollarSign />
-     
+       <Trash2 />
+       <Pencil />
+       <UserCheck />
+       <Briefcase /> */}
      
       
      </div>

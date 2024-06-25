@@ -71,3 +71,29 @@ button:focus-visible {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  font-family: "General Sans, inter";
+}
+
+.head{
+  font-family: "General Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: #888888;
+}
+
+.head:hover{
+  color: #DC4A2D;
+  font-weight: 800;
+}
+
+h1, p{
+  color: #3D3D3D;
+}
+
+h2{
+  color: #4F4F4F;
+}
