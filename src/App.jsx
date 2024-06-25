@@ -26,6 +26,9 @@ import { MessageCircleReply } from 'lucide-react'
 import { Users } from 'lucide-react'
 import { HomeIcon } from 'lucide-react'
 import React from 'react'
+import Navbar from './comonents/Navbar'
+import Header from './comonents/Header'
+import Body from './comonents/Body'
 
 const App = () => {
   return (
@@ -46,7 +49,10 @@ const App = () => {
        <Pencil />
        <UserCheck />
        <Briefcase /> */}
-     
+      
+      <Navbar />
+      <Header />
+      <Body />
       
      </div>
     </>

@@ -21,7 +21,15 @@ const headerinfo = [
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <>
+    <div className='flex flex-row p-4 ml-20 gap-20 border-b'>
+      {headerinfo.map((val, idx) => (
+        <div  key={idx}> 
+          <p className='para '>{val.text}</p> 
+        </div>
+      ))}
+    </div>
+    </>
   )
 }
 
